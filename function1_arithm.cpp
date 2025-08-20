@@ -23,7 +23,7 @@ int main(int argc, char** argv)
 	return 0;
 }
 
-int sum(int a, int b){
+int sum(int a, int b) {
 	return a + b;
 }
 
@@ -40,4 +40,5 @@ double division(int a, int b) {
 		return 0;
 	else
 		return  static_cast<double>(a) / static_cast<double>(b);
+
 }
