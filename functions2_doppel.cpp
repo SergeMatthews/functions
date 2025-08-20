@@ -10,8 +10,7 @@ int main()
     func_power(5, 2);
     func_power(3, 3);
     func_power(4, 4);
-
-
+    
     return 0;
 }
 
@@ -23,5 +22,6 @@ void func_power(int value, int power) {
     }
     cout << value << " в степени " << power << " = " << result << endl;
 }
+
 
 
